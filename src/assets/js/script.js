@@ -13,7 +13,9 @@ randerTodayCal();
 var taskList = JSON.parse(localStorage.getItem('todoTaskList')) || [];
 
 function randerTodayCal(){
-    for(var i=0; i<timeDiff; i++){
+
+    for(var i=0; i<timeDiff; i++)
+    {
         var divrow = $('<div>');
         var divcolTime = $('<div>');
         var todoTask = $('<textarea>');
@@ -55,7 +57,7 @@ function randerTodayCal(){
 
         $(".container").append(divrow);
     }
-   // renderTodos();
+   renderTodos();
 }
 function renderTodos() {
     var taskList = JSON.parse(localStorage.getItem('todoTaskList')) || [];
@@ -82,7 +84,7 @@ $(document).on('click', '.saveBtn', function(event) {
     
     localStorage.setItem('todoTaskList',JSON.stringify(taskList));
     
-   // renderTodos(taskList);
+   renderTodos(taskList);
     
   });
 
