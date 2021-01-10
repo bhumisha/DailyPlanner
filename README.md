@@ -20,6 +20,6 @@ This project includes code with HTML,CSS and JQuery having used of moment(),JQue
 main logic is written in JQuery. Js file contains DOM manipulation, conditional statements / loop statement / validations to modularised code we have used functions. LocalStorage is also used to store daily plan schedular.
 
 The following screen demonstrates the application functionality: Landing page / validation / localstorage 
-![](assets/images/landingPage.png)
-![](assets/images/validation.png)
-![](assets/images/localStorage.png)
+![](src/assets/images/landingPage.png)
+![](src/assets/images/validation.png)
+![](src/assets/images/localStorage.png)
