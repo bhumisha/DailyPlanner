@@ -90,7 +90,7 @@ $(document).on('click', '.saveBtn', function(event) {
     var todoTaskDesc =  $(this).siblings(".description").val().trim(); //get textArea - sibling to get description value
     
     var isTaskExist = false;
-   
+    //update / delete the task.
     for(var i=0;i<taskList.length;i++)
     {
         if(time === taskList[i].tasktime){
@@ -107,14 +107,14 @@ $(document).on('click', '.saveBtn', function(event) {
     if(!isTaskExist){
         //Create object and add to localstorage.
         if(todoTaskDesc === ""){
-            alert("Please enter todo task");
+            alert("Please enter task description.");
         }
         else{
             var task = { tasktime: time, taskDesc :todoTaskDesc};
             taskList.push(task);
         }
     }
-
+    //Save tasklist to localstorage
     localStorage.setItem('todoTaskList',JSON.stringify(taskList));
    
   });
