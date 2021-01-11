@@ -16,7 +16,7 @@ Project Source code : https://github.com/bhumisha/DailyPlanner
 
 You can view and enter your daily schedular using below link https://bhumisha.github.io/DailyPlanner/
 
-This project includes code with HTML,CSS and JQuery having used of moment(),JQuery and bootstrap third party libraries.
+This project codebase is written in HTML,CSS and JQuery and also we have used of moment.js,JQuery and bootstrap third party libraries.
 main logic is written in JQuery. Js file contains DOM manipulation, conditional statements / loop statement / validations to modularised code we have used functions. LocalStorage is also used to store daily plan schedular.
 
 The following screen demonstrates the application functionality: Landing page shows past / current / future hours detail with added tasks.
